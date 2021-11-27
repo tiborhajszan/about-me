@@ -14,13 +14,13 @@
 
 <body>
   <nav>
-    <a href="index.html"><img src="media/flag-gb.png" alt="English"></a>
-    <a href="magyar.html"><img src="media/flag-hu.png" alt="Hungarian"></a>
+    <a href="index.html"><img class="flag" src="media/flag-gb.png" alt="English"></a>
+    <a href="magyar.html"><img class="flag" src="media/flag-hu.png" alt="Hungarian"></a>
   </nav>
   <div id="card">
     <div id="header">
       <figure>
-        <img id="profile-picture" src="media/TiborHajszan.jpg" alt="Tibor Hajszan Picture">
+        <img id="header-picture" src="media/TiborHajszan.jpg" alt="Tibor Hajszan Picture">
       </figure>
       <div id="header-text">
         <h1>Tibor Hajszan, MD, PhD</h1>
@@ -29,9 +29,10 @@
         <p id="locale"><i class="fa fa-map-marker"></i> Szeged, Hungary</p>
       </div>
     </div>
-    <div class="intro">
+    <article>
+      <h3>About Me</h3>
       <p>
-        <strong>About me:</strong> I belong to a generation that grew up with Commodore computers, when there was no internet (imagine that!), the operating system was DOS, high-level programming meant BASIC, and low-level programming required machine code (yep - I actually did some machine coding on my C-64). Yet, despite being a computer enthusiast, I spent my last 25 years in academia doing research and teaching.
+        I belong to a generation that grew up with Commodore computers, when there was no internet (imagine that!), the operating system was DOS, high-level programming meant BASIC, and low-level programming required machine code (yep - I actually did some machine coding on my C-64). Yet, despite being a computer enthusiast, I spent my last 25 years in academia doing research and teaching.
       </p>
       <p>
         I became known in the field of neuroscience for my pioneering research on the "<a href="https://medicine.yale.edu/news-article/coming-undone-how-stress-unravels-the-brains-structure/" target="_blank">synaptogenic hypothesis</a>", a novel pathomechanism of major depressive disorder, which is targeted by highly effective antidepressant medications currently under development in the pharmaceutical industry. Research gave me the privilege to work in distiguished neuroscience laboratories and experience vibrant and inspiring culture at excellent institutions, such as <a href="https://www.yale.edu/" target="_blank">Yale University</a>, <a href="https://www.rutgers.edu/" target="_blank">Rutgers University</a>, <a href="https://u-szeged.hu/english" target="_blank">University of Szeged</a>, and <a href="https://mta.hu/english" target="_blank">Hungarian Academy of Sciences</a>.
@@ -42,8 +43,8 @@
       <p>
         Fortunately, science and computing are closely related species. As a scientist, I mostly collected data from various experiments, analyzed the data with statistical methods, and finally published my results in a <a href="https://m2.mtmt.hu/api/publication?cond=authors%3Beq%3B10011417&ty_on=1&ty_on_check=1&st_on=1&st_on_check=1&url_on=1&url_on_check=1&cite_type=2&sort=publishedYear%2Cdesc&size=100&page=1&labelLang=eng" target="_blank">few dozen scientific reports</a>. These abilities are not far from what a data scientist or a web publisher does, exactly my chosen areas of specialization within the IT sector. I believe that combining science and computing skills will greatly help me in accomplishing my mission-statement: Helping the millions of people who suffer from major depressive disorder.
       </p>
-    </div>
-    <div class="lists">
+    </article>
+    <div id="lists">
       <h3>Education</h3>
       <ul>
         <li>MD (general medicine), Albert Szent-Györgyi Medical University, Szeged, Hungary</li>
@@ -52,7 +53,7 @@
       <h3>Work</h3>
       <ul>
         <li>Albert Szent-Györgyi Medical University, Szeged, Hungary</li>
-        <li>Rutgers University, Newark, New Jersey</li>
+        <li>Rutgers University Newark Campus, Newark, New Jersey</li>
         <li>Yale University School of Medicine, New Haven, Connecticut</li>
         <li>Hungarian Academy of Sciences, Budapest, Hungary</li>
       </ul>
@@ -61,13 +62,13 @@
         <li>Hardware: Computer assembly, diagnosing and fixing hardware issues</li>
         <li>Network: Home and small office networks (deployment and administration)</li>
         <li>System: Windows-based systems (deployment and administration)</li>
-        <li>Software/Programming: C++, mql4, C#, Java, embedded systems (mostly my research equipment)</li>
+        <li>Software/Programming: C++, mql4, C#, Java, embedded systems</li>
       </ul>
       <h3>Contact</h3>
       <ul>
         <li class="contacts"><a href="https://www.linkedin.com/in/tibor-hajszan-1a2b7a7" target="_blank" title="LinkedIn"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
         <li class="contacts"><a href="https://github.com/tiborhajszan" target="_blank" title="GitHub"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-        <li class="contacts"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=hajszan+t&sort=pubdate&size=100" target="_blank" title="NCBI"><img id="ncbi" src="media/logo-ncbi.png" alt="NCBI"></a></li>
+        <li class="contacts"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=hajszan+t&sort=pubdate&size=100" target="_blank" title="NCBI"><img id="ncbi" src="media/logo-ncbi.jpg" alt="NCBI"></a></li>
       </ul>
     </div>
     <footer>

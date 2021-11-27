@@ -22,66 +22,130 @@ nav {
   top: 10px;
 }
 
+.flag {
+  transition: all 0.25s ease-in-out;
+}
+
+.flag:hover {
+  box-shadow: 2px 2px 2px white;
+  transform: scale(1.2);
+}
+
+
 #card {
   background-color: rgba(0, 0, 0, .5);
   width: 800px;
   max-width: calc(100vw - 30px);
-  margin: 75px auto;
+  margin: 100px auto 70px;
+  box-shadow: 0 0 50px 5px white;
   border-radius: 10px;
-  box-shadow: 0 0 50px 5px silver;
   padding-top: 1px;
 }
 
 #header {
   background-color: rgba(125, 0, 0, .25);
   width: 80%;
-  height: 160px;
+  height: auto;
   margin: -30px auto 30px;
-  border-radius: 10px;
   box-shadow: 0 0 3px 3px navajowhite;
+  border-radius: 10px;
+}
+
+#header, figure {
   display: flex;
   align-items: center;
 }
 
 figure {
-  width: 150px;
-  height: 158px;
-  float: left;
+  width: 25%;
+  height: auto;
 }
 
-#profile-picture {
+#header-picture {
   background-color: rgba(125, 0, 0, .5);
-  width: 150px;
-  height: 158px;
+  width: 100%;
+  height: auto;
+  margin: 1px;
   border-radius: 50%;
-  margin-left: 1px;
   padding: 1px;
   transition: all 0.25s ease-in-out;
 }
 
-#profile-picture:hover {
+#header-picture:hover {
   padding: 3px;
   transform: scale(1.2);
 }
 
 
 #header-text {
-  width: 100%;
+  width: 75%;
+  height: auto;
   text-align: center;
 }
 
 h1 {
   color: orange;
-  font-size: max(1.5vw, 16px);
-  line-height: 1.5em;
+  font-size: max(1.5vw, 18px);
+  line-height: 2em;
+  text-shadow: 0 -1px 1px black, 1px 0 1px black, 0 1px 1px black, -1px 0 1px black;
 }
 
 h2 {
-  font-size: max(1.25vw, 14px);
+  font-size: max(1.25vw, 16px);
 }
 
 #locale {
-  font-size: max(1.25vw, 14px);
+  font-size: max(1.25vw, 16px);
   font-weight: 300;
-  line-height: 1.5em;
+  line-height: 2em;
+  margin-bottom: 0;
+}
+
+article, #lists {
+  width: 90%;
+  height: auto;
+  margin: 30px auto;
+  text-align: justify;
+}
+
+p, ul {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.25em;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: orangered;
+}
+
+h3 {
+  color: white;
+  font-size: 16px;
+  font-variant: small-caps;
+  line-height: 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 5px;
+  padding-left: 3em;
+  text-indent: -3em;
+}
+
+.contacts {
+  padding-left: 0.5em;
+  text-indent: 0;
+  display: inline;
+}
+
+#ncbi {
+  width: auto;
+  height: 23px;
 }
