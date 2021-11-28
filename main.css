@@ -1,9 +1,12 @@
+/*******************************/
+/* <<< reset & backgrounds >>> */
+/*******************************/
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: 100%;
-}
+  font-size: 100%;}
 
 body {
   background-color: deepskyblue;
@@ -13,24 +16,7 @@ body {
   background-position: center;
   background-size: cover;
   font-family: "Josefin Sans", sans-serif;
-  color: navajowhite;
-}
-
-nav {
-  position: fixed;
-  right: 10px;
-  top: 10px;
-}
-
-.flag {
-  transition: all 0.25s ease-in-out;
-}
-
-.flag:hover {
-  box-shadow: 2px 2px 2px white;
-  transform: scale(1.2);
-}
-
+  color: navajowhite;}
 
 #card {
   background-color: rgba(0, 0, 0, .5);
@@ -39,27 +25,43 @@ nav {
   margin: 100px auto 70px;
   box-shadow: 0 0 50px 5px white;
   border-radius: 10px;
-  padding-top: 1px;
-}
+  padding: 1px 0;}
 
-#header {
-  background-color: rgba(125, 0, 0, .25);
+/***********************/
+/* <<< nav element >>> */
+/***********************/
+
+nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;}
+
+.flag {
+  transition: all 0.25s ease-in-out;}
+
+.flag:hover {
+  box-shadow: 2px 2px 2px white;
+  transform: scale(1.2);}
+
+/**************************/
+/* <<< header element >>> */
+/**************************/
+
+header {
+  background-color: rgba(128, 0, 0, .25);
   width: 80%;
   height: auto;
   margin: -30px auto 30px;
   box-shadow: 0 0 3px 3px navajowhite;
-  border-radius: 10px;
-}
+  border-radius: 10px;}
 
-#header, figure {
+header, figure {
   display: flex;
-  align-items: center;
-}
+  align-items: center;}
 
 figure {
   width: 25%;
-  height: auto;
-}
+  height: auto;}
 
 #header-picture {
   background-color: rgba(125, 0, 0, .5);
@@ -68,84 +70,79 @@ figure {
   margin: 1px;
   border-radius: 50%;
   padding: 1px;
-  transition: all 0.25s ease-in-out;
-}
+  transition: all 0.25s ease-in-out;}
 
 #header-picture:hover {
   padding: 3px;
-  transform: scale(1.2);
-}
-
+  transform: scale(1.2);}
 
 #header-text {
   width: 75%;
   height: auto;
-  text-align: center;
-}
+  text-align: center;}
 
 h1 {
   color: orange;
   font-size: max(1.5vw, 18px);
   line-height: 2em;
-  text-shadow: 0 -1px 1px black, 1px 0 1px black, 0 1px 1px black, -1px 0 1px black;
-}
+  text-shadow: 0 -1px 1px black, 1px 0 1px black, 0 1px 1px black, -1px 0 1px black;}
 
 h2 {
-  font-size: max(1.25vw, 16px);
-}
+  font-size: max(1.25vw, 16px);}
 
 #locale {
+  margin-bottom: 0;
   font-size: max(1.25vw, 16px);
   font-weight: 300;
-  line-height: 2em;
-  margin-bottom: 0;
-}
+  line-height: 2em;}
+
+/***************************/
+/* <<< article & lists >>> */
+/***************************/
 
 article, #lists {
   width: 90%;
   height: auto;
   margin: 30px auto;
-  text-align: justify;
-}
+  text-align: justify;}
+
+h3 {
+  color: orange;
+  font-size: 16px;
+  font-variant: small-caps;
+  line-height: 2.5em;}
 
 p, ul {
   margin-bottom: 15px;
   font-size: 16px;
-  line-height: 1.25em;
-}
-
-a {
-  color: white;
-}
-
-a:hover {
-  color: orangered;
-}
-
-h3 {
-  color: white;
-  font-size: 16px;
-  font-variant: small-caps;
-  line-height: 2em;
-}
+  line-height: 1.25em;}
 
 ul {
   list-style-type: none;
-}
+  font-size: 14px;}
 
 li {
   margin-bottom: 5px;
-  padding-left: 3em;
-  text-indent: -3em;
-}
+  padding-left: 1.5em;
+  text-indent: -1.5em;}
 
 .contacts {
-  padding-left: 0.5em;
-  text-indent: 0;
   display: inline;
-}
+  padding-left: 0.5em;
+  text-indent: 0;}
 
-#ncbi {
-  width: auto;
-  height: 23px;
-}
+a {
+  color: white;}
+
+a:hover {
+  color: orangered;}
+
+/**************************/
+/* <<< footer element >>> */
+/**************************/
+
+footer {
+  margin: 30px auto;
+  color: silver;
+  font-size: 12px;
+  text-align: center;}
