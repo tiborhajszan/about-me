@@ -19,10 +19,10 @@ body {
   color: navajowhite;}
 
 #card {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .6);
   width: 800px;
   max-width: calc(100vw - 30px);
-  margin: 100px auto 70px;
+  margin: 100px auto;
   box-shadow: 0 0 50px 5px white;
   border-radius: 10px;
   padding: 1px 0;}
